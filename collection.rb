@@ -6,7 +6,11 @@ data = [
   ['Steve', 24],
   ['Jill', 24]
 ]
-
+class Array
+   def except('Frank')
+     self - ['Frank']
+   end
+ end
 
 
 
